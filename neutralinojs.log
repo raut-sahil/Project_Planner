@@ -1,0 +1,117 @@
+INFO 2026-08-31 14:59:04,598 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 14:59:05,687 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 14:59:05,783 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 15:07:21,011 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 15:12:48,339 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 15:25:58,017 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 15:32:03,938 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 15:44:47,855 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:01:23,612 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:02:31,390 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:04:10,034 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:13:26,699 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:17:25,619 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:18:00,724 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:20:33,161 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:36:11,738 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:39:41,956 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:43:17,992 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+INFO 2026-08-31 16:45:35,507 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:45:36,455 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:45:36,813 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:47:43,919 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:47:44,935 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:47:45,288 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:48:30,147 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:48:31,224 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:48:31,593 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:50:40,710 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:50:41,903 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:50:42,122 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:51:46,558 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:51:47,643 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:51:48,011 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:52:45,877 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:52:47,014 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:52:47,208 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:54:14,575 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:54:15,759 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:54:15,938 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:56:13,352 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:56:14,455 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:56:14,798 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:58:56,413 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:58:57,584 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:58:57,758 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-08-31 16:59:14,346 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 info@HRS12
+ERROR 2026-08-31 16:59:15,571 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 16:59:15,867 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 18:08:43,091 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 18:09:30,744 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+ERROR 2026-08-31 18:17:04,404 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 info@HRS12
+INFO 2026-09-08 15:40:36,187 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 15:40:37,767 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 15:40:38,235 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 15:48:21,108 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 15:48:21,992 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 15:48:22,376 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 15:58:15,554 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 15:58:16,445 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 15:58:16,822 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 16:10:33,101 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:10:33,975 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:10:34,343 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:11:21,447 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 16:15:07,985 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:15:08,788 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:15:09,144 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 16:16:27,869 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:16:28,575 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:16:28,932 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 16:23:04,612 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:23:05,344 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:23:05,707 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 16:32:23,230 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:32:24,126 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:32:24,422 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:41:25,601 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 16:47:51,467 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:47:52,386 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:47:52,811 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 16:53:45,804 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:53:46,693 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 16:53:47,131 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-08 17:06:12,748 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 17:06:13,518 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-08 17:06:13,912 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-09 15:29:47,089 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:29:48,413 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:29:48,869 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-09 15:38:31,144 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:38:32,138 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:38:32,527 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-09 15:48:56,712 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:48:57,648 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:48:58,066 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:51:20,887 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-09 15:59:08,612 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:59:09,555 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 15:59:09,982 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 16:01:32,351 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-09 16:02:16,494 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 16:02:17,333 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 16:02:17,685 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-09 16:08:20,425 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 16:08:21,263 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 16:08:21,630 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-09 17:17:33,371 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 17:17:34,469 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-09 17:17:34,933 NE_RS_UNBLDRE: Unable to load application resource file /resources/.well-known/appspecific/com.chrome.devtools.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-15 16:33:59,514 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-15 16:34:00,700 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-15 16:41:52,987 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-15 16:41:53,708 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-15 16:46:43,185 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-15 16:46:43,832 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5
+INFO 2026-09-15 17:01:36,488 Auth info was exported to ./.tmp/auth_info.json D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:14 LENOVO@DESKTOP-UT542F5
+ERROR 2026-09-15 17:01:37,259 NE_RS_UNBLDRE: Unable to load application resource file /resources/favicon.ico D:\a\neutralinojs\neutralinojs\api\debug\debug.cpp:17 LENOVO@DESKTOP-UT542F5

@@ -1,0 +1,56 @@
+{
+  "name": "planner-command-center",
+  "version": "2.0.0",
+  "description": "Internal Org Project Management System with IAM, RBAC, and Audit Logging",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+  "start": "neu run",
+  "server": "node server.js",
+  "neu": "neu run",
+    "build:server": "pkg server.js --targets node20-win-x64 --output dist-exe/planner-server.exe",
+    "build:app": "neu build --release"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pdfkit": "^0.20.2",
+    "undici": "^8.10.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@neutralinojs/neu": "^11.7.2",
+    "@yao-pkg/pkg": "^6.22.0",
+    "concurrently": "^10.0.5",
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.planner.commandcenter",
+    "files": [
+      "**/*",
+      "!README.md"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "pkg": {
+    "assets": [
+      "db.json",
+      "assets/fligen-logo.png"
+    ],
+    "targets": ["node18-win-x64"],
+    "outputPath": "dist-exe"
+  },
+    "engines": {
+    "node": ">=18.0.0"
+  },
+  "allowScripts": {
+    "electron@31.7.7": true,
+    "electron-builder@24.13.3": true
+  }
+}

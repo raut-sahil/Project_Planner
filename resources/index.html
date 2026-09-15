@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planner — Project Command Center</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="window-shell">
+
+  <div class="titlebar" id="titlebar">
+    <div class="titlebar-drag">
+      <span class="titlebar-brand">◈ Planner</span>
+    </div>
+    <div class="titlebar-controls">
+      <button class="tb-btn tb-min" id="tb-min" title="Minimize"></button>
+      <button class="tb-btn tb-max" id="tb-max" title="Maximize"></button>
+      <button class="tb-btn tb-close" id="tb-close" title="Close"></button>
+    </div>
+  </div>
+
+
+  <!-- ── Login Screen ── -->
+  <div class="login-screen" id="login-screen">
+    <div class="login-bg-grid"></div>
+    <div class="login-card">
+      <div class="login-brand">
+        <span class="login-brand-icon">◈</span>
+        <div>
+          <div class="login-brand-name">Planner</div>
+          <div class="login-brand-sub">Command Center</div>
+        </div>
+      </div>
+      <div class="login-org-badge" id="login-org-badge">INTERNAL SYSTEM</div>
+      <h2 class="login-title">Sign In</h2>
+      <p class="login-desc">Restricted to authorized personnel only.</p>
+
+      <div class="login-error" id="login-error" style="display:none"></div>
+
+      <div class="login-field">
+        <label class="login-label">Username or Email</label>
+        <input class="login-input" id="login-username" type="text" autocomplete="username"
+          placeholder="username or user@org.internal" />
+      </div>
+      <div class="login-field">
+        <label class="login-label">Password</label>
+        <div class="login-pw-wrap">
+          <input class="login-input" id="login-password" type="password" autocomplete="current-password"
+            placeholder="••••••••" />
+          <button class="login-pw-eye" id="login-pw-eye" type="button">👁</button>
+        </div>
+      </div>
+
+      <button class="login-btn" id="login-btn">
+        <span id="login-btn-label">Sign In</span>
+        <span class="login-spinner" id="login-spinner" style="display:none"></span>
+      </button>
+
+      <div class="login-footer">
+        <div class="login-security-badge">
+          <span>⬡</span> Secured · Internal Network Only · Audit Logged
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── App Shell (hidden until authenticated) ── -->
+  <div class="app" id="app" style="display:none">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="brand">
+          <span class="brand-icon">◈</span>
+          <div>
+            <div class="brand-name">Planner</div>
+            <div class="brand-sub">Command Center</div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-view="dashboard">
+          <span class="nav-icon">⬡</span>
+          <span>Dashboard</span>
+        </button>
+        <button class="nav-item" data-view="projects">
+          <span class="nav-icon">◫</span>
+          <span>Projects</span>
+        </button>
+        <button class="nav-item" data-view="timeline">
+          <span class="nav-icon">▤</span>
+          <span>Timeline</span>
+        </button>
+        <button class="nav-item" data-view="analytics">
+          <span class="nav-icon">◈</span>
+          <span>Analytics</span>
+        </button>
+        <button class="nav-item" data-view="issues">
+          <span class="nav-icon">⚠</span>
+          <span>Issues</span>
+        </button>
+        <button class="nav-item" data-view="cicd">
+          <span class="nav-icon">⚙</span>
+          <span>CI / CD</span>
+        </button>
+        <button class="nav-item" data-view="jobcard">
+          <span class="nav-icon">▦</span>
+          <span>Export Data</span>
+        </button>
+        <!-- IAM — admin/superadmin only -->
+        <button class="nav-item perm-users-read" data-view="iam" style="display:none">
+          <span class="nav-icon">◉</span>
+          <span>IAM</span>
+        </button>
+        <!-- Audit — admin/superadmin only -->
+        <button class="nav-item perm-audit-read" data-view="audit" style="display:none">
+          <span class="nav-icon">▣</span>
+          <span>Audit Log</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-section-label">PROJECTS</div>
+      <div class="sidebar-projects" id="sidebar-projects"></div>
+      <div class="sidebar-overdue" id="sidebar-overdue" style="display:none"></div>
+
+      <div class="sidebar-footer">
+        <!-- User info -->
+        <div class="sidebar-user" id="sidebar-user">
+          <div class="sidebar-user-avatar" id="sidebar-user-avatar">?</div>
+          <div class="sidebar-user-info">
+            <div class="sidebar-user-name" id="sidebar-user-name">—</div>
+            <div class="sidebar-user-role" id="sidebar-user-role">—</div>
+          </div>
+          <button class="sidebar-logout-btn" id="sidebar-logout-btn" title="Sign out">⏻</button>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" title="Toggle theme">
+          <span id="theme-icon">☀</span>
+          <span id="theme-label">Light Mode</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+      <header class="topbar" id="topbar">
+        <div class="topbar-left">
+          <button class="sidebar-toggle" id="sidebar-toggle">
+            <span></span><span></span><span></span>
+          </button>
+          <h1 class="page-title" id="page-title">Dashboard</h1>
+        </div>
+        <div class="topbar-right" id="topbar-right">
+          <div class="overdue-badge" id="overdue-badge" style="display:none">
+            <span class="pulse-dot"></span>
+            <span id="overdue-count">0 overdue</span>
+          </div>
+          <div class="topbar-user-pill" id="topbar-user-pill">
+            <span class="topbar-user-avatar" id="topbar-user-avatar">?</span>
+            <span id="topbar-user-name">—</span>
+            <span class="topbar-role-badge" id="topbar-role-badge">—</span>
+          </div>
+          <button class="btn-primary perm-projects-create" id="topbar-action" style="display:none">+ New Project</button>
+        </div>
+      </header>
+
+      <main class="content" id="content">
+        <!-- Rendered by JS -->
+      </main>
+    </div>
+  </div>
+
+  <!-- ── Sidebar dimmer (mobile) ── -->
+  <div class="sidebar-dimmer" id="sidebar-dimmer"></div>
+
+  <!-- ── Modal Overlay ── -->
+  <!-- modal-inner receives the full injected HTML: header + body + footer     -->
+  <!-- modal-box is the visual shell (border, shadow, border-radius)           -->
+  <!-- The overlay scrolls as a block — modal-box grows naturally with content -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-box" id="modal-box">
+      <div id="modal-inner" style="display:contents"></div>
+    </div>
+  </div>
+
+  <!-- ── Toast Container ── -->
+  <div class="toast-container" id="toast-container"></div>
+  </div>
+  <script src="js/neutralino.js"></script>
+  <script src="app.js"></script>
+  <script src="auth.js"></script>
+  <script>
+    let backendProcessId = null;
+
+    async function pingServer(url, timeoutMs) {
+      return new Promise((resolve) => {
+        const timer = setTimeout(() => resolve(false), timeoutMs);
+        fetch(url).then(() => { clearTimeout(timer); resolve(true); })
+                  .catch(() => { clearTimeout(timer); resolve(false); });
+      });
+    }
+
+    async function startBackend() {
+      // If something is already listening on :3000 (e.g. you started it manually
+      // for debugging), don't spawn a second copy.
+      const alreadyUp = await pingServer('http://localhost:3000/api/health', 500);
+      if (alreadyUp) {
+        console.log('Backend already running, skipping spawn.');
+        return;
+      }
+      try {
+        const proc = await Neutralino.os.spawnProcess('node server.js');
+        backendProcessId = proc.id;
+        console.log('Backend spawned, id:', proc.id, 'pid:', proc.pid);
+      } catch (err) {
+        console.error('Failed to spawn backend:', err);
+      }
+
+      // Wait for the API to actually come up before letting the user hit Login.
+      for (let i = 0; i < 20; i++) {
+        if (await pingServer('http://localhost:3000/api/health', 300)) break;
+        await new Promise(r => setTimeout(r, 250));
+      }
+    }
+
+    async function stopBackend() {
+      if (backendProcessId !== null) {
+        try {
+          await Neutralino.os.updateSpawnedProcess(backendProcessId, 'exit');
+        } catch (err) {
+          console.error('Failed to stop backend:', err);
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', () => {
+      Neutralino.init();
+      document.getElementById('tb-min')?.addEventListener('click', () => Neutralino.window.minimize());
+      document.getElementById('tb-max')?.addEventListener('click', async () => {
+        const maximized = await Neutralino.window.isMaximized();
+        if (maximized) await Neutralino.window.unmaximize();
+        else await Neutralino.window.maximize();
+      });
+      document.getElementById('tb-close')?.addEventListener('click', async () => {
+        await stopBackend();
+        Neutralino.app.exit();
+      });
+    });
+
+    Neutralino.events.on('windowClose', async () => {
+      await stopBackend();
+      Neutralino.app.exit();
+    });
+  </script>
+</body>
+</html>
