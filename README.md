@@ -134,3 +134,6 @@ Data is stored in `db.json` as structured JSON:
 - `auditLog[]` — Tamper-evident action log (last 500 entries)
 - `config{}` — System configuration
 
+##Setup
+1. Prepare a assets directory and place logo.png file of your logo in there
+2. Emails can be edited through db.json
