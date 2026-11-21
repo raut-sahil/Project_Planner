@@ -20,7 +20,7 @@ const fs        = require('fs');
 const { v4: uuidv4 } = require('uuid');
 const PDFDocument = require('pdfkit');
 
-const LOGO_PATH = path.join(__dirname, 'assets', 'fligen-logo.png');
+const LOGO_PATH = path.join(__dirname, 'assets', 'logo.png');
 
 const app  = express();
 const PORT = process.env.PORT || 3000;
