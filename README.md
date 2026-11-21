@@ -1,7 +1,8 @@
-# ◈ Planner — Project Command Center v2
+# ◈ Planner — Project Command Center
 
 Internal org project management system with IAM, RBAC, IP restriction, and full audit logging.
-
+A quick job-card creating, along with timeline management and task manager
+Including git commits from projects to include in job-cards, and arranging it along with tasks in a ascending datewise format.
 ---
 
 ## Quick Start
