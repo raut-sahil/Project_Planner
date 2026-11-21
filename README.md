@@ -25,10 +25,10 @@ npm start
 
 | Username     | Password       | Role        |
 |--------------|----------------|-------------|
-| superadmin   | Admin@1234     | Super Admin |
-| manager01    | Manager@1234   | Manager     |
-| dev01        | Dev@1234       | Developer   |
-| viewer01     | View@1234      | Viewer      |
+| superadmin   | Super@Admin2026| Super Admin |
+| manager01    | Manager@123    | Manager     |
+| dev01        | Dev@123        | Developer   |
+| viewer01     | View@123       | Viewer      |
 
 ⚠️  Change all passwords immediately after first login.
 
