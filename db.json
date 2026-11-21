@@ -1,0 +1,87 @@
+{
+  "config": {
+    "orgName": "Acme Corp",
+    "allowedIP": "127.0.0.1",
+    "version": "2.0.0"
+  },
+  "users": [
+    {
+      "id": "u2",
+      "username": "manager1",
+      "email": "manager1@acmecorp.internal",
+      "name": "Manger",
+      "role": "manager",
+      "department": "Product",
+      "avatar": "PS",
+      "password": "$2a$12$YAZklV0On4fxocY.d0ntXeeNKD6bgiyMc2.tl1s9FhvbCq44q5XhO",
+      "active": true,
+      "createdAt": "2026-11-21T02:14:12.829Z",
+      "lastLogin": null,
+      "createdBy": "u1",
+      "loginAttempts": 0,
+      "lockedUntil": null
+    },
+    {
+      "id": "u3",
+      "username": "dev1",
+      "email": "dev1@acmecorp.internal",
+      "name": "Developer",
+      "role": "developer",
+      "department": "Engineering",
+      "avatar": "KP",
+      "password": "$2a$12$.L/s3xCgwb8g3ME.S4mvRuJroSB2ioeaN8Vr4EZUROleH.MVvNube",
+      "active": true,
+      "createdAt": "2026-11-21T02:14:12.829Z",
+      "lastLogin": null,
+      "createdBy": "u1",
+      "loginAttempts": 0,
+      "lockedUntil": null
+    },
+    {
+      "id": "u4",
+      "username": "viewer1",
+      "email": "viewer1@acmecorp.internal",
+      "name": "Viewer",
+      "role": "viewer",
+      "department": "Management",
+      "avatar": "RM",
+      "password": "$2a$12$jvblK3vRQpKnScWA70obp.TClc5bsZMr9ac9wogwGUNO8VF.Tdcym",
+      "active": true,
+      "createdAt": "2026-11-21T02:14:12.829Z",
+      "lastLogin": null,
+      "createdBy": "u1",
+      "loginAttempts": 0,
+      "lockedUntil": null
+    },
+    {
+      "id": "u5",
+      "username": "superadmin",
+      "email": "root@acmecorp.internal",
+      "name": "Root Admin",
+      "role": "superadmin",
+      "department": "IT Operations",
+      "avatar": "RA",
+      "password": "$2a$12$a3yg3KsQ2BLFZt2tPZgU7OCA5a6YCr2ZEeN5zt7XcsnMdDpB1B2Ca",
+      "active": true,
+      "createdAt": "2026-11-21T02:14:12.829Z",
+      "lastLogin": "2026-11-21T02:19:22.375Z",
+      "createdBy": "system",
+      "loginAttempts": 0,
+      "lockedUntil": null
+    }
+  ],
+  "projects": [],
+  "jobEntries": [],
+  "auditLog": [
+    {
+      "id": "al00000001",
+      "action": "SYSTEM_INIT",
+      "userId": "system",
+      "userName": "System",
+      "role": "-",
+      "details": "Database initialised",
+      "ip": "local",
+      "timestamp": "2026-11-21T02:14:12.829Z"
+    }
+  ]
+}
