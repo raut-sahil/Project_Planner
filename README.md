@@ -5,19 +5,36 @@ A quick job-card creating, along with timeline management and task manager
 Including git commits from projects to include in job-cards, and arranging it along with tasks in a ascending datewise format.
 ---
 
+## Images
+<img width="1283" height="714" alt="image" src="https://github.com/user-attachments/assets/002f839f-de79-4e4a-b16b-d79dc2bca75d" />
+
+<img width="1282" height="719" alt="image" src="https://github.com/user-attachments/assets/bcda0d3a-1511-4fd1-9e2c-57e3b6cb0748" />
+
+<img width="1275" height="730" alt="image" src="https://github.com/user-attachments/assets/dc6c6c2b-55ad-41f9-aa1c-b8213e5c86e9" />
+
+<img width="1277" height="711" alt="image" src="https://github.com/user-attachments/assets/bc09c050-c13c-4e66-a04e-c5b385dd81c4" />
+
+<img width="1250" height="721" alt="image" src="https://github.com/user-attachments/assets/65b17415-8baf-4d80-8929-9d924c7a4712" />
+
 ## Quick Start
 
 ```bash
 # 1. Install dependencies
 npm install
+npm install -g @neutralinojs/neu
 
 # 2. Configure environment
 cp .env.example .env
 # Edit .env — especially JWT_SECRET and ALLOWED_IP
 
 # 3. Start the server
-npm start
-# Open: http://127.0.0.1:3000
+neu update
+node server.js
+npm run start
+
+ # 4. For building release
+neu build
+neu build --release
 ```
 
 ---
